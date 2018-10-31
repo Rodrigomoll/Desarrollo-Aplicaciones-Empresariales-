@@ -1,0 +1,20 @@
+Laboratorio 02 - Definicion de Proyectos
+
+-Imagen 01.png
+Modificacion de archivos Wamp
+-Imagen 02.png
+Creacion de tablas en MySQL.
+-Imagen 03.png
+Configuracion de archivo env
+-Imagen 04.png
+Verificacion de la tabla Usuarios
+-Imagen 05.png
+Verificacion de la tabla Fotos
+-Imagen 06.png
+Verificacion de la tabla Albumes
+-Imagen 07.png
+Controlador de Bienvenida
+-Imagen 08.png
+Controlador de PHP
+-Imagen 09.png
+Controlador de Inicio

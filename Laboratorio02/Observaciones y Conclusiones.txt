@@ -1,0 +1,15 @@
+Observaciones
+-Para inciar a trabajar en el laboratorio tenemos que inciar el 
+ servidor de laravel.
+-Tener cuidado con los nombres de las tablas y controladores ya 
+ que estos se encuentran en ingles y tenemos que cambiarlas.
+-Utilizaremos MySQL version 5.7 con la cual Laravel es mas estable.
+-Al ejecutar los archivos php se abrira el servidor de Wamp.
+Conclusiones
+-Los controladores sirven para manipular los datos que tienes.
+-La configuracion del host es esencial para ejecutar el proyecto.
+-Gestor Imagenes contiene un trait con el cual se utiliza la 
+ reutilizacion de codigo en diferentes lenguajes de programacion
+ en nuestro caso seria php.
+-Las clases que creamos como Album, fotos, usuarios estan 
+ conectadas entre las 3 para realizar un buen ingreso al login.
