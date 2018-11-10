@@ -1,0 +1,51 @@
+Imagen 01
+-Creacion de FotoController.
+Imagen 02
+-Creacion de AlbumController.
+Imagen 03
+-Creacion de UsuarioController.
+Imagen 04
+-Configuracion de las rutas para cada controlador.
+Imagen 05
+-Ejecucion de gestorlaravel.com.
+Imagen 06
+-Configuracion de la funciòn handle.
+Imagen 07
+-Ejecucion de gestorlaravel.com/validado que muestra el contenido del controller.
+Imagen 08
+-Ejecucion de GestorImagenes/public/validado/fotos
+Imagen 09
+-Comentamos la funcion handle para que no ejecuta de frente un controller.
+Imagen 10
+-Ejecutamos GestorImagenes/public/validado/fotos.
+Imagen 11
+-Ejecutamos GestorImagenes/public/validado/fotos/crear-foto.
+Imagen 12
+-Ejecucion de una direcciòn inexistente.
+Imagen 13
+-Declaramos una vista "not found page" ahora la ejecutamos.
+Imagen 14
+-Cambiamos el retorno de la funciòn getIndex.
+Imagen 15
+-Cambiamos el retorno de la funciòn getIndex pero de otro controlador.
+Imagen 16
+-Ejecutamos el inicio de sesiòn.
+Imagen 17
+-Mostramos los dos retornos de funciones que fueron modificados.
+Imagen 18
+-Modificamos la vista de inicio.
+Imagen 19
+-Modificamos la vista de registro.
+Imagen 20
+-Ejecutamos la vista de inicio.
+Imagen 21
+-Ejecutamos la vista de registro.
+Imagen 22
+-Creamos una vista para recuperar contraseña.
+Imagen 23
+-Creamos una vista para recuperar contraseña.
+Imagen 24
+-Modificacion del retorno de la funcion recuperar contraseña.
+
+
+

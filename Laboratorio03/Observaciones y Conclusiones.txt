@@ -1,0 +1,20 @@
+Observaciones:
+-Tendremos que crear varios controladores para cada clase que querramos utilizar.
+-Cuando se queria ejecutar el programa tenias que colocar las rutas bien redactadas
+ de otro modo generaba errores.
+-Generamos una funciòn 404 de error de pagina que lo utilizamos en el laboratorio.
+-Al modificar las vistas tuvimos que cambiar el retorno de cada funcion por el de una 
+ vista porque si no generaria error.
+-Tuvimos que modificar el lenguaje de ingles a español.
+
+
+Conclusiones:
+-Las rutas del proyecto estan conectadas con los controladores y las vistas.
+-Mediante las rutas es por donde cada controlador puede realizar las funciones de 
+ ejecuciòn.
+-Cuando modificamos una vista teniamos que colocar las direcciones url de las paginas
+ de igual manera con los controladores.
+-Al interactuar con registrarse o iniciar sesion por fin se ejecutaran las vistas que 
+ aun no estan en funcionamiento de almacenar informaciòn.
+-Cuando colocabamos una ruta inexistente declaramos un nuevo tipo de page not found para interactuar
+ mas con el sistema.
