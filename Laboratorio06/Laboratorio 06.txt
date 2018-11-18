@@ -1,0 +1,20 @@
+Imagen 01
+-Creamos la vista de creación de album.
+Imagen 02
+-Damos los atributos que tendra nuestra clase CrearAlbumRequest.
+Imagen 03
+-En el controlador de Album colocamos en la función de postCrearAlbum nuestro request creado.
+Imagen 04
+-Creación de vista para crear un Álbum.
+Imagen 05
+-Creación de album exitosa.
+Imagen 06
+-En nuestro controlador en la función getIndex colocamos otro request creado.
+Imagen 07
+-Creamos el formulario de creación de fotos.
+Imagen 08
+-Al request "CrearFotoRequest" le damos los atributos de foto.
+Imagen 09
+-En el controlador de foto mandamos el request creado para crear una foto.
+Imagen 10
+-Foto creada exitosamente.

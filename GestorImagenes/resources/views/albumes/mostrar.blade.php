@@ -1,6 +1,13 @@
 @extends('app')
 
 @section('content')
+
+@if(Session::has('creado'))
+	<div class="alert alert-success">
+		<p>El album ha sido creado </p>
+	</div>
+@Endif
+
 <div class="container-fluid">
 <p><a href="/validado/albumes/crear-album" class="btn btn-primary" role=button>Crear Àlbum</a></p>
 @if(sizeof($albumes)>0)

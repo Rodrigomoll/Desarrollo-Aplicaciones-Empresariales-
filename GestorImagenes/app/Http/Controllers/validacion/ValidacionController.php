@@ -8,6 +8,8 @@ use Illuminate\Http\request;
 use GestorImagenes\Http\Requests\IniciarSesionRequest;
 use GestorImagenes\Http\Requests\RecuperarContrasenaRequest;
 use GestorImagenes\Usuario;
+
+
 class ValidacionController extends Controller {
 
 		/**
