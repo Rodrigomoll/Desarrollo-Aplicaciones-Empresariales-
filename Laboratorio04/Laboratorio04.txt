@@ -1,0 +1,54 @@
+Imagen 01
+-Realizar la migracion de para crear fotos, albumes y usuarios.
+Imagen 02
+-Visualizacion de las migraciones realizadas.
+Imagen 03
+-Crear la estructura de la tabla usuarios.
+Imagen 04
+-Crear la estructura de la tabla albumes.
+Imagen 05
+-Crear la estructura de la tabla fotos.
+Imagen 06
+-Realizar la migracion a la base de datos.
+Imagen 07
+-Crear el seeder para la tabla albumes.
+Imagen 08
+-Crear el seeder para la tabla foto.
+Imagen 09
+-Crear el seeder para la tabla usuarios.
+Imagen 10
+-Creamos la funcion render.
+Imagen 11
+-Modificamos el archivo env para que este true y permita entrar la funcion
+ del logeo del proyecto.
+Imagen 12
+-Realizamos el seeder que permiten llenar las tablas hasta el valor de 50.
+Imagen 13
+-Ejecutamos el archivo para que se ejecute el env.
+Imagen 14
+-En el logeo verificamos el archivo env modificado.
+Imagen 15
+-Iniciamos el usuario "usuario".
+Imagen 16
+-Creamos el servidor "Rodrigo".
+Imagen 17
+-Verificamos la creación del usuario "Rodrigo".
+Imagen 18
+-Creamos un archivo Request con el comando "php artisan make:request IniciarSesionRequest".
+Imagen 19
+-Creamos el archivo Request "RecuperarContraseñaRequest".
+Imagen 20
+-Ejecutamos el archivo para actualizar la contraseña.
+Imagen 21
+-Ejecutamos los valores de actualizar contraseña dando este resultado.
+Imagen 22
+-Salida exitosa de cambios realizadas.
+
+Explora la base de datos y responda:
+¿Qué sucedio?
+Los archivos seeder permiten que el llenado de tablas de maneras automaticas
+hasta los parametros colocados.
+¿Cuales fueron las credenciales utilizadas para acceder al sistema?
+Utilizamos el "usuario0" y la contraseña "pass0".
+¿Cual seria el proceso de crear un Request de nombre:"RecuperarContrasenaRequest"?
+Mediante el comando "php artisan make:Request RecuperarContrasenaRequest".

@@ -1,0 +1,14 @@
+Imagen 01
+-Validar la ruta de editar perfil.
+Imagen 02
+-Creación de la vista de editar perfil.
+Imagen 03
+-Modificacion del controlador de usuario para modificación del perfil.
+Imagen 04
+-Creación del diseño de la vista de desarrollo de editar perfil.
+Imagen 05
+-Prueba exitosa de cambio de perfil.
+Imagen 06
+-Modificacion del controlador de Album.
+Imagen 07
+Ejecucion de la vista para crear una foto dentro de un usuario que tenga fotos creadas.
