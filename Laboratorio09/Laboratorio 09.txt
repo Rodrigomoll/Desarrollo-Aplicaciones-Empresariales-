@@ -1,0 +1,26 @@
+Imagen 01
+-Creamos un request de eliminar un álbum.
+Imagen 02
+-Llamamos a nuestro request para que elimine.
+Imagen 03
+-Creamos las vistas de crear-album.
+Imagen 04
+-Creamos un request de eliminar una foto.
+Imagen 05
+-Creamos la función de eliminar foto.
+Imagen 06
+-Creamos la vista de actualizar foto.
+
+Observaciones:
+-Ahora nuestro proyecto Gestor Imagenes tiene diversas funciones como las de actualizar, eliminar y crear.
+-Tenemos que tener en cuenta eñ tipo de archivo que escojamos para subir.
+-El tamaño de la imagen 2000px de acuerdo a las validaciones dadas.
+-GET y POST son nuestras principales funciones de proyecto.
+-Todos los request tienen que estar referenciados en el controlador ya sea de album o foto de acuerto de que trate nuestro request.
+
+Conclusiones:
+-Ahora si se puede realizar las peticiones HTTP como las de crear, modificar, borrar.
+-Cada obtención de valores mediante las peticiones GET logra obtener su valor mediante los ID.
+-Con la función 'max' podemos ver y modificar el tamaño necesario de nuestro archivo.
+-Cada usuario que se encuentra registrado en nuestra base de datos tiene sus propias fotos y albumes.
+-La variable de imagen tiene que ser reservada con el signo de dolar.

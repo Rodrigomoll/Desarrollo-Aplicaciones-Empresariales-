@@ -1,0 +1,32 @@
+Imagen 01
+-Creamos la función de actualizar un album de nuestro proyecto.
+Imagen 02
+-Creación de la vista de actualizar un album.
+Imagen 03
+-Modificamos la vista de crear un álbum.
+Imagen 04
+-Modificamos la función de actulizar álbum del controlador Álbum. 
+Imagen 05
+-Modificamos la funcion de obtención de actualizar una foto.
+Imagen 06
+-Creación de la vista crear foto.
+Imagen 07
+-Creamos un request de actualizar una foto en la cual estara toda la logica de nuestroo proyecto.
+Imagen 08
+-Modificamos la funcion de actualizar foto validando con los valores de nuestra vista.
+Imagen 09
+-Creación del mensaje de foto editada exitosamente.
+Imagen 10
+-Demostración.
+
+Conclusiones.
+-El metodo de authorize permite verificar si el álbum se encuentra existente en cualquier usuario que se encuentre dentro del proyecto.
+-Una de las funciones que se utilizo durante el laboratorio es "getcwd" que devuelve el la dirección del directorio donde se esta trabajando.
+-Se tuvo que modificar las vistas de actualizar fotos y albumes de acuerdo a los valores dados en sus respectivas funciones.
+-Carbon es un paquete que puede crear y dar formatos a distintas fechas respecetivas.
+-Todos los link a los cuales se dirigen varian de acuerdo al nombre de nuestras variables.
+Observaciones.
+-Carbon es una libreria que viene por defecto en nuestro Laravel.
+-Todas las busquedas que se realizan se hacen mediante el id de cada valor.
+-Para actualizar nuestras fotos o albumes tenemos que redirigir nuestras vistas y controladores.
+

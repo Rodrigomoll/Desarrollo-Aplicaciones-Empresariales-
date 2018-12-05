@@ -1,0 +1,23 @@
+Imagen 01
+-Referenciamos nuestro proyecto creado.
+Imagen 02
+-Modificamos las vistas de crear álbum.
+Imagen 03
+-Modificamos las vista de crear foto.
+Imagen 04
+-Cambiamos la funcion de eliminar album.
+Imagen 05
+-Realizamos el rellenado de datos en nuestra base de datos.
+
+Observaciones:
+-Al ejecutar el comando php artisan vimos que se volvieron a llenar todas nuestras bases de datos.
+-Todas las modificaciones o nuestros archivos estan de acuerdo a lo que tenemos en nuestra base de datos.
+-Si no te encuentras registrado dentro del proyecto no puedes ingresar a tus albumes o fotos.
+-Al realizar un cambio ya sea en fotos o albumes siempre aparecera un mensaje de exito o de error.
+-Tenemos que referenciar a nuestro proyecto en la parte inicial.
+
+Conclusiones:
+-Al proceer al sistema la función de eliminar fotos facilita mucho la velocidad de esta.
+-El comando "php:artisan migrate:refresh" realiza una migracion de valores en nuestra base de datos.
+-PHP provee de una funcionalidad excelente de acuerdoa las funciones declaradas.
+-Al finalizar el proyecto GESTOR IMAGENES funciona de manera exitosa y amigable.
