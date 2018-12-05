@@ -10,6 +10,7 @@ use GestorImagenes\Http\Requests\RecuperarContrasenaRequest;
 use GestorImagenes\Usuario;
 
 
+
 class ValidacionController extends Controller {
 
 		/**

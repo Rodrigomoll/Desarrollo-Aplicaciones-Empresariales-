@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Auth;
 use GestorImagenes\album;
 use GestorImagenes\Http\Requests\CrearAlbumRequest;
+use GestorImagenes\Http\Requests\ActualizarAlbumRequest;
+use GestorImagenes\Http\Requests\EliminarAlbumRequest;
 
 class AlbumController extends Controller {
 	/**
@@ -41,21 +43,35 @@ class AlbumController extends Controller {
 		return redirect('/validado/albumes')->with('creado','El album ha sido creado');
 	}
 
-	public function getActualizarAlbum(){
-		return 'formulario de actualizar albumes';
+	public function getActualizarAlbum($id){
+		$album=Album::find($id);
+		return view('albumes.actualizar-album',['album'=>$album]);
 	}
 
-	public function postActualizarAlbum(){
-		return 'actualizar album';
+	public function postActualizarAlbum(ActualizarAlbumRequest $request){
+		$album=Album::find($request->get('id'));
+		$album->nombre=$request->get('nombre');
+		$album->descripcion=$request->get('descripcion');
+		$album->save();
+		return redirect('/validado/albumes')->with('actualizado','El álbum se actualizo ');
 	}
 
-	public function getEliminarAlbum(){
-		return 'formulario de eliminar album';
-	}
+	
 
-	public function postEliminarAlbum(){
-		return 'eliminando album';
-	}
+	public function postEliminarAlbum(EliminarAlbumRequest $request){
+
+  		$album=Album::find($request->get('id'));
+  		$fotos=$album->fotos;
+  		foreach ($fotos as $$foto) {
+  			$rutaanterior=getcwd().$foto->ruta;
+  			if(file_exists($rutaanterior)){
+  				unlink(realpath($rutaanterior));
+  			}
+  			$foto->delete();
+  		}
+  		$album->delete();
+    	return redirect('/validado/albumes')->with('eliminado','El album fue eliminado!');
+  }
 
 	public function missionMethod($parameters=array()){
 		abort(404);
